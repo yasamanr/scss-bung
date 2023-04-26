@@ -1,0 +1,35 @@
+/* base */
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+  }
+  
+  /* "neue" HTML5 Elemente */
+  header, main, section, nav, aside, article, footer, figure, figcaption {
+    display: block;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Poor Story", sans-serif;
+    color: $font-color;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+ header {
+  width: 100%;
+  background-color: $primary-color;
+  height: 45vh;
+ }

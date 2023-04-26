@@ -1,0 +1,20 @@
+section {
+    > div {
+        width: 100%;
+        h2 {
+            font-family: 'Courier New', Courier, monospace;
+            
+            
+        }
+        ul > li {
+            font-family: $font-fam;
+            font-size: 1.1rem;
+            line-height: .5rem;
+        }
+        ul > p {
+            font-family: $font-fam;
+            font-size: 1.1rem;
+            line-height: 1.6rem;
+        }
+    }
+}

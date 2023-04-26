@@ -1,0 +1,19 @@
+section {
+    > div > div {
+        margin-top: 2rem;
+        display: flex;
+        > input  {
+            background-color: $secondary-color;
+            height: 1.8rem;
+            border: 2px solid $primary-color;
+            padding-left: 1rem;
+        }
+        > button {
+            background-color: $primary-color;
+            height: 1.8rem; 
+            border-style: none;
+            
+            
+        }
+    }
+}
